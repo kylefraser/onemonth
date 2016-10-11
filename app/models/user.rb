@@ -7,4 +7,5 @@ class User < ApplicationRecord
   validates :password, :presence => true,
                      :on => :create,
                      :format => {:with => /\A.*(?=.{10,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\@\#\$\%\^\&\+\=]).*\Z/ }
+  has_many :pins
 end
