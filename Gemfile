@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
